@@ -78,6 +78,12 @@ public class Main {
         for(var i = 0; i < numero; i++){
             System.out.println(i);
         }
-
+// ---------------------------------------------------------------------------------------------------------------------
+        // Loop - while.
+        int x = 0;
+        while(x < 10){
+            System.out.println(x);
+            x++;
+        }
     }
 }
