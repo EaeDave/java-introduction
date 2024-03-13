@@ -4,7 +4,7 @@ import java.util.Arrays;  // Foi importado essa classe para poder converter Arra
 import java.util.ArrayList;  // Foi importado essa classe para criar um Array dinâmico.
 
 // Classe principal.
-public class Main {
+public class SintaxeBasica {
     // Método principal da classe.
     public static void main(String[] args) {
         // Declaração de variáveis.
@@ -85,5 +85,18 @@ public class Main {
             System.out.println(x);
             x++;
         }
+// ---------------------------------------------------------------------------------------------------------------------
+        // Casting - Conversão de Tipos.
+        int idade1 = 22;  // idade1 = 22.
+        double idade2 = idade1;  // idade2 = 22.0.
+        idade1 = (int) idade2;  // Casting explícito, essa conversão concorda em perder partes dos dados para a conversão.
+
+        char letra1 = 'D';  // Foi declarado a variável letra1 com o valor 'D'.
+        String nome1 = String.valueOf(letra1);  // Foi convertido de tipo char para String.
+        letra1 = nome1.charAt(0);  // Foi convertido String para char.
+
+        int numeroInteiro = 2001;
+        String numeroEmString = String.valueOf(numeroInteiro);  // numeroEmString = "2001"
+        numeroInteiro = Integer.parseInt(numeroEmString);  // Foi convertido de String para int.
     }
 }
