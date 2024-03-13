@@ -72,8 +72,12 @@ public class Main {
         linguagensProgramacao.add("Python");  // Foi acrescentado o valor "Python" utilizando o método add().
         System.out.println(linguagensProgramacao.getFirst());
         System.out.println(linguagensProgramacao.get(1));
-
-
+// ---------------------------------------------------------------------------------------------------------------------
+        // Loop - for.
+        int numero = 10;
+        for(var i = 0; i < numero; i++){
+            System.out.println(i);
+        }
 
     }
 }
